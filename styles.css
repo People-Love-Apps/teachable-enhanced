@@ -1,3 +1,7 @@
 #Left_menu_toggle{
     cursor: pointer;
 }
+
+.hidden{
+    display: node;
+}

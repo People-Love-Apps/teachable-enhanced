@@ -38,11 +38,11 @@ console.log('*******NAV*******');
 console.log(nav);
 console.log('*******NAV*******');
 
-let toggle = document.createElement('a');
-toggle.setAttribute("class", "nav-btn complete");
-toggle.setAttribute("role", "button");
-toggle.setAttribute("href", "#");
-toggle.setAttribute("id", "Left_menu_toggle");
+let enhance = document.createElement('a');
+enhance.setAttribute("class", "nav-btn complete");
+enhance.setAttribute("role", "button");
+enhance.setAttribute("href", "#");
+enhance.setAttribute("id", "Left_menu_toggle");
 
 
 let span = document.createElement('span')
@@ -50,10 +50,20 @@ span.setAttribute("class", "nav-txt");
 
 
 
-nav.prepend(toggle);
-toggle.appendChild(span);
-toggle.innerHTML = "Toggle Left Menu";
+nav.prepend(enhance);
+enhance.appendChild(span);
+enhance.innerHTML = "Toggle Sidebar";
 
-toggle.onclick = function (){
+enhance.onclick = function (){
     console.log("clicked");
+
+/*
+<div class="lecture-left">
+
+  </div>
+*/
+// var x = document.getElementsByClassName("lecture-left");
+let courseSidebar = document.getElementById("courseSidebar");
+courseSidebar.classList.toggle("hidden")
+// id courseSidebar
 }
