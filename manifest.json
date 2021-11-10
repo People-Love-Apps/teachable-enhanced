@@ -1,6 +1,6 @@
 {
     "name": "Teachable Enhanced",
-    "description": "Make Teachable.com more user friendly ",
+    "description": "Make Teachable.com more user-friendly. This extension allows you to toggle the course sidebar, so the video takes up more screen real estate without going full screen.",
     "version": "1.0",
     "manifest_version": 3,
     "icons": {
