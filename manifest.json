@@ -21,8 +21,8 @@
                 "*://*/courses/*"
 
             ],
-            "js": ["content.js"],
-            "css": ["styles.css"]
+            "js": ["content.js"]
+            // "css": ["styles.css"]
         }
     ]
 }

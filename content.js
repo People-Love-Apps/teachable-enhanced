@@ -39,7 +39,7 @@ console.log(nav);
 console.log('*******NAV*******');
 
 let toggle = document.createElement('a');
-toggle.setAttribute("class", "nav-btn");
+toggle.setAttribute("class", "nav-btn complete");
 toggle.setAttribute("role", "button");
 toggle.setAttribute("href", "#");
 toggle.setAttribute("id", "Left_menu_toggle");
